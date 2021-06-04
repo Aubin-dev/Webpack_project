@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="success">
+                <h1>Connexion réussi :)</h1>
+            </div>
+            <div class="overlay"></div>
+            <div class="pop_up pop_up_success">
+                <p>
+                    Inscription réussi ! Vous pouvez maintenant vous connecter.
+                </p>
+                <button class="valide_success">Compris</button>
+            </div>
+            <div class="pop_up pop_up_failure">
+                <p>
+                    Quelque chose ne s'est pas bien passé ! Veillez réessayer.
+                </p>
+                <button class="valide_fail">Compris</button>
+            </div>
+            <div class="box_left">
+                <div class="message_connexion">
+                    <p>
+                        Déjà inscrit ?, <span class="connexion">connectez-vous</span>
+                    </p>
+                </div>
+                <div class="message_inscription">
+                    <p>
+                        Pas encore inscrit ?, <span class="inscription">inscrivez-vous</span>
+                    </p>
+                </div>
+            </div>
+            <div class="box_right">
+                <div class="sign_in form">
+                    <form action="">
+                        <label for="name">
+                            <input type="text" name="name" id="name" placeholder="Nom" autocomplete="off">
+                        </label>
+                        <label for="email">
+                            <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+                        </label>
+                        <label for="birth">
+                            <input type="text" name="birth" id="birth" placeholder="Date de naissance" autocomplete="off">
+                        </label>
+                        <label for="telephone">
+                            <input type="text" name="telephone" id="tel" placeholder="Numéro de téléphone" autocomplete="off">
+                        </label>
+                        <label for="password">
+                            <input type="password" name="password" id="mdp" placeholder="Mot de passe" autocomplete="off">
+                        </label>
+                        <label for="password_">
+                            <input type="password" name="password_" id="mdp_" placeholder="Confirmer mot de passe" autocomplete="off">
+                        </label>
+                        <button class="inscrire">
+                            S'inscrire
+                        </button>
+                    </form>
+                </div>
+                <div class="log_in form">
+                    <form action="">
+                        <label for="connexion_email">
+                            <input type="email" name="email" id="connexion_email" placeholder="Email" autocomplete="off">
+                        </label>
+                        <label for="connexion_password">
+                            <input type="password" name="password" id="connexion_password" placeholder="Mot de passe" autocomplete="off">
+                        </label>
+                        <button class="connecter">
+                            Se connecter
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script type="module" src="index.js"></script> -->
+</body>
+</html>
